@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:helloworld:Magento_Widget:etc/widget.xsd">
+    <widget class = "Australia\Demo\Block\Widget\Posts" id = "first_widget">
+        <label>Widget Posts</label>
+        <description>posts</description>
+        <parameters>
+            <parameter name = "posts" sort_order = "10" visible = "true" xsi:type = "text">
+                <label>custom</label>>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

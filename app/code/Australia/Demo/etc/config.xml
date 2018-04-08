@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<config>
+    <default>
+        <carriers>
+            <firstshipping>
+                <enable>1</enable>
+                <sallowspecific>0</sallowspecific>
+                <name>First Shipping</name>
+                <title>First Shipping Title</title>
+                <price>10</price>
+                <specific_error_msg>Shipping Method not availbale</specific_error_msg>
+                <type>I</type>
+                <model>Australia\Demo\Model\Carrier\First</model>
+            </firstshipping>
+        </carriers>
+        <payment>
+            <firstpayment>
+                <active>1</active>
+                <model>Australia\Demo\Model\Payment\First</model>
+                <order_status>pending</order_status>
+                <title>First Payment</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </firstpayment>
+        </payment>
+    </default>
+</config>
