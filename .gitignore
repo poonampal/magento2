@@ -22,7 +22,6 @@ atlassian*
 /lib/internal/flex/varien/.settings
 /node_modules
 /.grunt
-
 /pub/media/*.*
 !/pub/media/.htaccess
 /pub/media/catalog/*
@@ -43,8 +42,10 @@ atlassian*
 /pub/media/captcha/*
 /pub/static/*
 !/pub/static/.htaccess
-
 /var/*
 !/var/.htaccess
 /vendor
-!/vendor/.htaccess
+!/vendor/.htaccss
+/app/code/Australia/Mygrid/Controller/Index/Index.php
+D
+git update-index --assume-unchanged /app/code/Australia/Mygrid/Controller/Index/Index.php
