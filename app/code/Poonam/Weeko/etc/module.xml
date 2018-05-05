@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<config>
+    <module name = "Poonam_Weeko" setup_version = "1.0.0">
+        <sequence>
+            <moudle name = "Magento_Directory"/>
+            <module name = "Magento_Config"/>
+        </sequence>
+    </module>
+</config>

@@ -1,0 +1,6 @@
+<?php
+$asset = $this->_assetRepository;
+$assetObj = $asset->createAsset('Poonam_Weeko::js_php.js');
+$assetUrl = $assetObj->getUrl();
+?>
+<script src="<?php echo $assetUrl; ?>"></script>

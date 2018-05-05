@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<page>
+     <head>
+         <title>Title From Head Context</title>
+         <link src= "example.js"/>
+     </head>
+     <body>
+         <attribute name = "id" value = "weeko_body_from_body_context"  />
+         <referenceBlock name = "head.additional">
+             <block name = "layout.using.php" class = "Poonam\Weeko\Block\Head" template = "Poonam_Weeko::head.phtml"/>
+         </referenceBlock>
+     </body>
+</page>
